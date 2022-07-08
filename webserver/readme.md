@@ -24,7 +24,7 @@ As we're using mod_vhost_alias, we don't need to set up any additional vhost ent
 To add a new site
 - sudo mkdir -p /var/www/websites/mysite.web.example.com/web/
 - sudo chown -R webuser:sftpusers /var/www/websites/mysite.web.example.com/web/
-- connect using the SFTP details found in the ubuntu users' home directory (created during the installation of the script and saved in a dot-file)
+- connect using the SFTP details found in the ubuntu users' home directory (created during the installation of the script)
 - upload your web site to the `/mysite.web.example.com/web` folder
 
 To visit the new site in a web browser, there's no need to restart Apache, simply go to `http://mysite.web.example.com`
