@@ -1,7 +1,7 @@
 # webserver.sh
 #### Set up a development web server on a Raspberry Pi 3 or 4
 
-This bash script is intended for use on a Raspberry Pi 4 (or 3), running Ubuntu Server
+This bash script is intended for use on a Raspberry Pi 4 (or 3), running Ubuntu Server. It _should_ work on any server/VM running Ubuntu Server, but hasn't been tested
 
 Features:
 - choice of installing any of the PHP versions available in the repos
