@@ -24,3 +24,5 @@ As we're using mod_vhost_alias, we don't need to set up any additional vhost ent
 To add a new site
 - sudo mkdir -p /var/www/websites/mysite.web.example.com/web/
 - sudo chown -R webuser:sftpusers /var/www/websites/mysite.web.example.com/web/
+
+To visit the new site in a web browser, simply go to `http://mysite.web.example.com`
