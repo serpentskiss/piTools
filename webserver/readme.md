@@ -25,4 +25,4 @@ To add a new site
 - sudo mkdir -p /var/www/websites/mysite.web.example.com/web/
 - sudo chown -R webuser:sftpusers /var/www/websites/mysite.web.example.com/web/
 
-To visit the new site in a web browser, simply go to `http://mysite.web.example.com`
+To visit the new site in a web browser, there's no need to restart Apache, simply go to `http://mysite.web.example.com`
